@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lte IE 8]>
+        <script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+<![endif]-->
+</head>
+<script>
+   
+</script>
+
+<body>
+    <div class="content">
+    <!-- 结果存放区域 -->
+    <div class="top">
+        <input type="text" id="numf" name="sun" style="width: 250px;height:30px;font-size: 18px;">
+        <br>
+        <input type="text" id="done" readonly="" style="width:250px;height:30px;font-size: 18px;">
+        <div class="btnc">
+            <input name="end" type="button" value="退格" onclick="back()" readonly="" >
+            <input name="" type="button" value="清空" onclick="nn()">
+        </div>
+    </div>
+    <!-- 计算区域 数字和运算符-->
+    <div class="number">
+        <div><input class="numberf" type="button" value="+" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="-" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="*" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="/" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="1" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="2" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="3" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="sin" onclick="sinClick()"></div>
+        <div><input class="numberf" type="button" value="4" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="5" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="6" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="cos" onclick="cosClick()"></div>
+        <div><input class="numberf" type="button" value="7" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="8" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="9" onclick="putIn(event)"></div>
+         <div><input class="numberf" type="button" value="" onclick="sq()" style="background: url(23.jpg) no-repeat center;background-size: 40px 40px;background-color: #f2f2f2;"></div>
+        <div><input class="numberf" type="button" value="0" onclick="putIn(event)"></div>
+        <div><input class="numberf" type="button" value="." onclick="putIn(event)"></div>
+        <div><input class="numberf" name="" type="button" value="计算" onclick="cc()" readonly="" style="width: 120px"></div>
+         
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jj.js"></script>
+</html>

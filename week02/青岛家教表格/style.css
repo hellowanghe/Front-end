@@ -1,0 +1,116 @@
+
+body{
+	background-color: #0D7792;
+}
+#ftd{
+	background-image: url("beijin1.gif");
+	font-size: 12px;
+	text-align: center;
+	line-height: 150%;
+	color: #713F3F;
+	vertical-align: middle;
+}
+header{
+	height: 82px;
+}
+nav a{
+	
+	margin-left: 15px;
+	line-height: 150%;
+	color: rgb(255, 0, 153);
+	font-size: 12px;
+	float: right;
+	margin-top: 60px;
+}
+
+nav{
+	width: 636px;
+	height: 82px;
+}
+
+form td {
+	line-height: 150%;
+    border: 1px solid #BCBCBC;
+    border-collapse: collapse;
+}
+
+form table {
+	padding-left: 20px;
+    text-align: left;
+    width: 637px;
+    border-collapse: collapse;
+}
+caption{
+	margin-top:-15px; 
+	margin-bottom:20px;
+	color: #713F3F;
+	font-weight:bold;
+	font-size: 18px;
+}
+
+form {
+	border: 20px;
+	
+	margin-left: 37px;
+	font-size: 12px;
+	line-height: 150%;
+
+}
+span{
+
+	color: red;
+
+}
+
+.blue{
+	color: #0000ff;
+	font-size: 12px;
+}
+.realname{
+	width: 132px;
+}
+img{
+	margin-left: -10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+	
+.sub{
+	text-align: center;
+	line-height: 86px;
+
+}
+.box{
+	position: absolute;
+	left: 50%;
+    margin-left: -355px;
+
+	width: 710px;
+	height: 1900px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+}
+footer span{
+	color: #BCBCBC;
+	text-align: center;
+	display: block;}
+table{
+	margin-top: 30px;
+}
+.head{
+	font-weight: bold;
+	color: rgb(0, 51, 153);
+	font-size: 13px;
+	line-height: 150%;
+	background-color: rgb(238, 238, 238);
+}
+.right{
+	width: 136px;
+	text-align: right;
+
+}
+/*label{
+	display: inline-block;
+	width:100px;
+}
+*/

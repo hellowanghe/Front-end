@@ -1,0 +1,243 @@
+#ul{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 19px;
+	width: 485px;
+}
+nav{
+	position: relative;
+}
+.dl,.set {
+	display: inline-block;
+    float: left;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: underline;}
+    
+ a.bri {
+    background: #38f;
+    border-bottom: 1px solid #38f;
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    height: 23px;
+    line-height: 24px;
+    margin-left: 19px;
+    margin-right: 2px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    width: 60px;
+}
+.set:hover >.setting{
+	display: block;
+
+}
+#ul .setting a:hover{
+	background-color: blue;
+	font-color: white;
+}
+.dl,.sz{
+	color: black;
+}
+.dl:hover,.sz:hover{
+	color: blue;
+}
+
+
+.setting{
+	display: none;
+	font-color: black;
+	right: 14px;
+    border-radius: 5px;
+	position: relative;
+	width: 52px;
+	height: 104px;
+	background-color: inherit;
+	border:1px solid black;
+}
+.hnav{
+	color: #333;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+/*导航*/
+/*侧边栏*/
+.bricontent{
+	
+	
+	position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: -85px;
+    z-index: 1;
+    width: 85px;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(255 255 255);
+    font-size: 12px;
+}
+.bdcontent a{
+	display: block;
+	height: 76px;
+	width: 66px;
+}
+span{
+	display: block;
+	text-align: center;
+    left: 9px;
+    top:50px;
+}
+.bdcontent2 img{
+	
+	position: relative;
+    left: 23px;
+    top: 51px;
+    border-bottom: black;
+}
+.bdcontent2 span{
+	position: relative;
+}
+.title{
+	position: relative;
+	left: 0px;
+    top: 23px;
+    font-size: 13px;
+    color: inherit;
+}
+.title:hover{
+	color: black;
+}
+.setting a{
+	color: black;
+	
+}
+.bdcontent:hover{
+	background-color: #f9f9f9;
+}
+.bdcontent:hover>.bdcontent2{
+	display: block;
+}
+
+
+.bdcontent2{
+
+	display: none;
+	background-color:  #f9f9f9;
+
+}
+.bdcontent2 a{
+	text-decoration: none;
+}
+.bdcontent2 a:hover{
+	text-decoration: underline;
+}
+/*中间*/
+.content{
+	position: absolute;
+	
+	display: block;
+	width: 800px;
+	height: 300px;
+	top: 55px;
+	left: 50%;
+	margin-left: -400px;
+
+}
+#img {
+	position: relative;
+	display: block;
+	left: 50%;
+	margin-left: -135px;
+    width: 270px;
+    height: 129px;
+}
+#S {
+  	position: relative;
+    display: inline-block;
+    top: -38px;
+    height: 38px;
+    left: 80%;
+    border: 1px solid #398bfb;
+    width: 102px;
+    background-color: #398bfb;
+    border: 0px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+   
+}
+#F input{
+    position: relative;
+    width: 500px;
+    height: 22px;
+    margin-left: 7px;
+    margin-top: 6px;
+    border:1px solid #ccc;
+    left: -17px;
+    border: none;
+    outline: 0;
+
+    }
+ #F{
+   	width: 540px;
+   	height: 36px;
+   	border:1px solid #ccc;
+   }
+  form{
+  	position: relative;
+    left: 10%;
+  	width: 641px;
+  	height: 37px;
+  }
+  form a{
+  	    position: relative;
+    display: inline-block;
+    left: 500px;
+    top: -36px;
+  }
+  
+/*底部*/
+footer{
+	
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+    left: 50%;
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+    margin-left: -400px;
+}
+footer a{
+	color: #999;
+}
+
+.ftext{
+	position: relative;
+	display: inline-block;
+	color: #999;
+	font: 12px arial;
+
+}
+.fimg_text div{
+	position: relative;
+	display: inline-block;
+}
+.fimg_text{
+	position: relative;
+	display: inline-block;
+	top:-13px;
+}
+.text1{
+	line-height: 4px;
+	top: -13px;
+}

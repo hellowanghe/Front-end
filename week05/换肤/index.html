@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>双飞翼布局</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="bdid" onload="Redcookie()">
+    <div class="container">
+        <div class="top">
+            <div class="top-con">
+                <span class="logo-img"></span>
+                <form action="">
+                    <input type="text">
+                    <input type="button" value="">
+
+                </form> 
+                <form id="change-skin">
+                    <label>换肤</label>
+                    <button type="button" style="background: #f00;" onclick="redChange()">Red</button>
+                    <button  type="button" style="background: #0f0;" onclick="yellowChange()">Yellow</button>
+                    <button  type="button" style="background: #00f;" onclick="blueChange()">blue</button>
+                </form>
+            </div>
+        </div>
+        <div class="head">
+            <div class="innerhead" id="changeful" >
+                <ul class="ful" id="ulchange">
+                    <li style="width: 80px; background-color:  #0aa770;"><a href="#">首页</a></li>
+                    <li ><a href=""><span >电视剧</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>最新电影</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>新闻头条</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>八卦娱乐</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>军事热点</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>热门游戏</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>小游戏</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>今日特价</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>特价旅游</span><span class="split">|</span></a></li>
+                    <li><a href=""><span>郑州生活</span><span class="split">|</span></a></li>
+                </ul>
+                <ul class="sul">
+                    <div class="govsite-inner ">
+                        <span class="title g-ib">权威推荐<span class="title-line g-ib">|</span></span>
+                        <div class="govsite-item g-ib " data-index="0"><a class="govsite-link g-ib " href="http://www.people.com.cn/">人民网</a></div>
+                        <div class="govsite-item g-ib " data-index="1"><a class="govsite-link g-ib " href="http://www.xinhuanet.com/">新华网</a></div>
+                        <div class="govsite-item g-ib " data-index="2"><a class="govsite-link g-ib " href="http://www.cctv.com/">央视网</a></div>
+                        <div class="govsite-item g-ib " data-index="3"><a class="govsite-link g-ib " href="http://www.cri.cn/">国际在线</a></div>
+                        <div class="govsite-item g-ib " data-index="4"><a class="govsite-link g-ib " href="http://cn.chinadaily.com.cn/">中国日报网</a></div>
+                        <div class="govsite-item g-ib " data-index="5"><a class="govsite-link g-ib " href="https://www.hao123.com/link/https/?key=http%3A%2F%2Fwww.china.com.cn%2F&amp;tn=96079920_hao_pg&amp;c=DEFD00B33874174863112B4075979324">中国网</a></div>
+                        <div class="govsite-item g-ib " data-index="6"><a class="govsite-link g-ib " href="http://www.ce.cn/">中国经济网</a></div>
+                        <div class="govsite-item g-ib " data-index="7"><a class="govsite-link g-ib " href="http://www.gmw.cn/">光明网</a></div>
+                        <div class="govsite-item g-ib " data-index="8"><a class="govsite-link g-ib " href="http://www.cnr.cn/">央广网</a></div>
+                        <div class="govsite-item g-ib " data-index="9"><a class="govsite-link g-ib " href="http://www.qstheory.cn/">求是网</a></div>
+                        <div class="govsite-item g-ib " data-index="10"><a class="govsite-link g-ib " href="http://www.youth.cn/">中国青年网</a></div>
+                        <div class="govsite-item g-ib " data-index="11"><a class="govsite-link g-ib " href="http://www.cac.gov.cn/">中国网信网</a></div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="article">
+            <div class="left">
+                <ul class="leftul">
+                    <li><span class="leftul_icon"></span><a href="">电视剧</a><span>|</span><a href="">综艺</a></li>
+                    <li><span class="leftul_icon"></span><a href="">游戏</a><span>|</span><a href="">小游戏</a></li>
+                    <li><span class="leftul_icon"></span><a href="">电影</a><span>|</span><a href="">直播</a></li>
+                    <li><span class="leftul_icon"></span><a href="">动漫</a><span>|</span><a href="">漫画</a></li>
+                    <li><span class="leftul_icon"></span><a href="">新闻</a><span>|</span><a href="">军事</a></li>
+                    <li><span class="leftul_icon"></span><a href="">旅游</a><span>|</span><a href="">音乐</a></li>
+                    <li><span class="leftul_icon"></span><a href="">彩票</a><span>|</span><a href="">竞猜</a></li>
+                    <li><span class="leftul_icon"></span><a href="">搞笑</a><span>|</span><a href="">小说</a></li>
+                    <li><span class="leftul_icon"></span><a href="">特价</a><span>|</span><a href="">手机</a></li>
+                    <li><span class="leftul_icon"></span><a href="">股票</a><span>|</span><a href="">理财</a></li>
+                </ul>
+            </div>
+            <div class="mid">
+                <ul class="js_bd site-bd  site-hd0">
+                    <li>
+                        <a target="_blank" href="http://www.baidu.com/?tn=sitehao123_15" padding-left: 0px;top: 0;left: 7px; "><img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/img/baiduzhongban-4.gif "></a><a  href="http://www.baidu.com/?tn=sitehao123_15 " >百度</a>&nbsp;•&nbsp;<a href="https://www.baidu.com/s?word=%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7&amp;tn=sitehao123_16 ">贴吧</a>
+                        
+                    </li>
+                    <li ><a hidefocus="true " cls="xw,n " href="http://www.sina.com.cn/ " style="background:url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/res/img/defaultIcon1229.png) no-repeat 2px -278px; " class="js_text sitemainlink " alog-custom="ind:xw,sal:0 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=" ">新浪</a></a>&nbsp;•&nbsp;<a href="http://weibo.com/ " cls="qt,n " class="sitesublink " style=" " alog-custom="ind:qt,sal:0 ">微博</a>
+                    </li>
+                    <li ><a hidefocus="true " cls="xw,n " href="http://www.sohu.com/ " data-title="搜狐 " style="background:url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/res/img/defaultIcon1229.png) no-repeat 2px -318px; " class="js_text sitemainlink " alog-custom="ind:xw,sal:0 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a hidefocus="true " cls="xw,n " href="http://www.sohu.com/ " >搜狐</a>&nbsp;•&nbsp;<a href="http://tuijian.hao123.com/ " cls="qt,n " class="sitesublink " style=" " alog-custom="ind:qt,sal:0 ">热点</a>
+                    </li>
+                    <li ><a class="js_text " cls="xw,n " href="http://www.qq.com/ " ><span>腾　讯</span></a></li>
+                    <li ><span>网　易</span></a></li>
+                    <li ><a href="http://www.youku.com/ " ><span>优 酷 网</span></a></li>
+                    <li ><a class="js_text " cls="ds,y " href="http://www.hao123.com/link/v3/?key=pZwYTjCEQLn8mvkGmv_8IA7Emh7EQhPEUiqY5vRqUiR1wjc-nWu1FHPDyWuLwM9EiNPYUvVWRy-siLIwXhNffLK-T-ubyhN2Ih-sRhR-nbm3ph7KiAPMyN63N7b-nbFrwgIbnDP-raRzwbPZnW-GHhwMT7f-nbu8Ijwpfy9lp-wsiA42pH93UvkuihPcyZFVPvqnXj7bpduyIgugRhDzXbqCPvGVXbPznDPufbNJfhmsTbk3R-KQHWFAwD7WpzRzwbPQiYwyIbN1rA9jPv_4nyNVpRdEUyuowDGiTzRzfh9NFHPD " data-title="天猫 " hidefocus="true "  alog-custom="ind:ds,sal:1 "><span>天　猫</span></a>
+                        <a target="_blank "  href="http://s.click.taobao.com/t?e=m%3D2%26s%3DZ6wFxoIStokcQipKwQzePCperVdZeJvipRe%2F8jaAHcgYX8TY%2BNEwd0Ce8%2FCG29iNdgpT%2Fnt4ZAhzjTpHnJi8xolYJcHXrm7oLx1dkVVuvWRa2zOh7jmzCr0CYBEjBf0rLxRPKN2FDAck%2FCKKDVvEs8hC7k91emiMomfkDJRs%2BhU%3D " alog-text="天　猫 " style="position: absolute;display: inline-block;width: 30px;height: 22px;padding-left: 0px;top: 0;left: 7px; "></a>
+                    </li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="8838.png " data-style=" " data-id="8 " data-status="1 "><a class="js_text " cls="xw,n " href="http://www.ifeng.com " data-title="凤凰网 " hidefocus="true "  alog-custom="ind:xw,sal:0 "><span>凤 凰 网</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="10062.png " data-style=" " data-id="9 " data-status="1 "><a class="js_text " cls="ds,n " href="http://www.taobao.com " data-title="淘宝网 " hidefocus="true "  alog-custom="ind:ds,sal:0 "><span>淘 宝 网</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="game0331.png " data-style=" " data-id="10 " data-status="1 "><a class="js_text " cls="yx,n " href="http://game.hao123.com/ " data-title="免费游戏 " hidefocus="true " alog-custom="ind:yx,sal:0 "><span>免费游戏</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="187.png " data-style=" " data-id="11 " data-status="1 "><a class="js_text " cls="yx,y " href="http://www.4399.com/ " data-title="4399游戏 " hidefocus="true "  alog-custom="ind:yx,sal:1 "><span>4399游戏</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal site-item-last " data-icon="1419388771.png " data-style=" " data-id="12 " data-status="1 "><a class="js_text " cls="sp,n " href="http://v.hao123.com/ " data-title="hao123影视 " hidefocus="true "  max-width:95px alog-custom="ind:sp,sal:0 "><span>hao123影视</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="21.1.png " data-style="g_red " data-id="13 " data-status="1 "><a class="js_text g_red " cls="ds,y " href="http://union.click.jd.com/jdc?d=iEZf6v " data-title="京东商城 " hidefocus="true "  alog-custom="ind:ds,sal:1 "><span>京东商城</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="8022_1.png " data-style="g_red " data-id="14 " data-status="1 "><a class="js_text g_red " cls="ds,y " href="http://www.hao123.com/link/v3/?key=pZwYTjCEQLILIz41Iy4GUhT8mvqVQ1qdIAdxTvqdThP-5y99U1DznzudIAdxUyNbpgNV5ydGUhIlpA78 " data-title="苏宁易购 " hidefocus="true "  alog-custom="ind:ds,sal:1 "><span>苏宁易购</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="6282.png " data-style=" " data-id="15 " data-status="1 "><a class="js_text imgtxt " cls="ds,n " href="http://tejia.hao123.com/?tn=mz " data-title="今日特价 " hidefocus="true "  alog-custom="ind:ds,sal:0 " alog-text="今日特价 "><span >今日特价</span></a> </li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="8500.8500.png " data-style=" " data-id="16 " data-status="1 "><a class="js_text " cls="ds,y " href="http://www.hao123.com/link/v3/?key=pZwYTjCEQLILIz4MUvd-QhPEUi4WUBtOmvdspyfquA9xpA7EnHc1gvdl " data-title="国美在线 " hidefocus="true " alog-custom="ind:ds,sal:1 "><span>国美在线</span></a></li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal " data-icon="380.png " data-style=" " data-id="17 " data-status="1 "><a class="js_text " cls="qt,y " href="http://www.autohome.com.cn " data-title="汽车之家 " hidefocus="true "  " alog-custom="ind:qt,sal:1 "><span>汽车之家</span></a>
+                    </li>
+                    <li data-style2=" " class="js_site-item g-ib site-item site-item-normal site-item-last " data-icon="8.411.png " data-style=" " data-id="18 " data-status="1 "><a class="js_text " cls="ds,y " href="http://s.click.taobao.com/t?e=m%3D2%26s%3DvFb95tIhVfscQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClArf8IuTnw21KpYhT3hRxpHneH6ss%2F4RTmewzTi%2FqTVt3ZoauIjGQcyzhwiQ8goUYh%2Bo0BcZWWIRYYA%2FDpPH01wK9AmARIwX9K%2BAjBDXvuqoU47FHjfsActnIQu5PdXpojKJn5AyUbPoV " data-title="聚划算 " hidefocus="true "><span>聚 划 算</span></a>
+                        <!-- <li title="添加网址 " class="js_item-add g-ib site-item site-item-add site-item-add-short "><i></i></li> --></li>
+                </ul>
+                <div class="wf-inner">
+                <span class=" famoussite-span-hassub "><a href="https://www.hao123.com/link/https/?key=http%3A%2F%2Fwww.eastmoney.com&amp;&amp;c=DEFD00B33874174863112B4075979324 " class="famoussite-mainlink widget-links-l em " cls="xw,n " alog-custom="ind:xw,sal:0,atd: ">东方财富</a>•<a href="http://www.hao123.com/licai " class="widget-links-r " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">理财</a></span>
+                <span class=" "><a href="http://jump.luna.58.com/s?spm=b-31580022738699-me-f-862&amp;ch=mingzhan " class="famoussite-mainlink " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">58 同 城</a></span>
+                <span class=" "><a href="http://www.fang.com/ " class="famoussite-mainlink " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">房 天 下</a></span>
+                <span class=" "><a href="http://www.ctrip.com " class="famoussite-mainlink " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">携程旅行网</a></span>
+                <span class=" "><a href="http://map.baidu.com/ " class="famoussite-mainlink " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">百度地图</a></span>
+                <span class=" famoussite-span-hassub famoussite-span-last "><a href="http://www.12306.cn/ " class="famoussite-mainlink widget-links-l " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">12306</a>•<a href="http://go.hao123.com/?tn=mz " class="widget-links-r " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">旅游</a></span>
+                <span class=" "><a href="http://www.jiayuan.com/ " class="famoussite-mainlink " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">世纪佳缘</a></span>
+                <span class=" "><a href="http://www.ganji.com/?ca_s=tg_hao123&amp;ca_n=mingzhan " class="famoussite-mainlink " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">赶 集 网</a></span>
+                <span class=" "><a href="http://www.bitauto.com/ " class="famoussite-mainlink " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">易 车 网</a></span>
+                <span class=" famoussite-span-hassub "><a href="http://www.hao123.com/sports " class="famoussite-mainlink widget-links-l " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">体育</a>•<a href="http://www.hao123.com/nba " class="widget-links-r " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">NBA</a></span><span class=" "><a href="http://www.xcar.com.cn/?zoneclick=102630 " class="famoussite-mainlink " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">爱卡汽车</a></span>
+                <span class=" famoussite-span-hassub famoussite-span-last "><a href="http://moe.hao123.com/ " class="famoussite-mainlink widget-links-l " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">萌主页</a>•<a href="http://v.hao123.com/dongman/ " class="widget-links-r " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">动漫</a></span>
+                <span class=" "><a href="http://www.hao123.com/link/v3/?key=pZwYTjCEQvP_pyPoQMN8pyq8QMuGTa4WUvYEThNbpgF-mLf8TA9s5vPEuARqpytkNbbkus%3D%3D " class="famoussite-mainlink " cls="ds,y " alog-custom="ind:ds,sal:1,atd: ">唯 品 会</a></span>
+                <span class=" "><a href="http://life.hao123.com/ " class="famoussite-mainlink " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">hao 到 家</a></span>
+                <span class=" "><a href="http://www.hao123.com/link/v3/?key=pZwYTjCEQLILIz4YIy4GIi4WUvYE5L0qnHmzPW6hmvdspyfqUyVYg101njnYPj0kFMNYUNqWmydsmy-MUWdbmyqCmy4MFMNYUNq1ULNzmvRqpA7EnHc1QhPEUiudIAdxUyNbpgNV5ywGTLK_mgb%3D " class="famoussite-mainlink " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">途牛旅游网</a></span>
+                <span class=" "><a href="http://browser.hao123.com/ " class="famoussite-mainlink " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">高清浏览器</a></span><span class=" "><a href="http://tuijian.hao123.com/?type=rec " class="famoussite-mainlink " cls="xw,n " alog-custom="ind:xw,sal:0,atd: ">头条新闻</a></span>
+                <span class="famoussite-span-hassub famoussite-span-last "><a href="http://www.zhibo8.cc/ " class="famoussite-mainlink widget-links-l " cls="sp,n " alog-custom="ind:sp,sal:0,atd: ">直播吧</a>•<a href="http://game.hao123.com/kaifu " class="widget-links-r " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">开服表</a></span>
+                <div class="change-color" id="bot">
+                    <span ><a href="http://shouji.suning.com/?utm_source=hao123&amp;utm_medium=sjmingzhan " class="famoussite-mainlink tc-green " cls="ds,y " alog-custom="ind:ds,sal:1,atd: ">苏宁手机馆</a></span>
+                    <span ><a href="http://caipiao.hao123.com/ " class="famoussite-mainlink tc-green " cls="qt,n " alog-custom="ind:qt,sal:0,atd: ">彩票开奖</a></span>
+                    <span ><a href="http://www.yhd.com/?tracker_u=1378513919 " class="famoussite-mainlink g_red " cls="ds,y " alog-custom="ind:ds,sal:1,atd: ">1 号 店</a></span>
+                    <span ><a href="http://s.click.taobao.com/Of7tWWx " class="famoussite-mainlink tc-green " cls="qt,y " alog-custom="ind:qt,sal:1,atd: ">阿里旅行</a></span>
+                    <span ><a href="http://ai.taobao.com/?pid=mm_43125636_4246598_21868321 " class="famoussite-mainlink tc-green " cls="ds,y " alog-custom="ind:ds,sal:1,atd: ">爱 淘 宝</a></span>
+                    <span ><a href="http://gouwu.hao123.com/?tn=mz " class="famoussite-mainlink widget-links-l tc-green " cls="ds,n " alog-custom="ind:ds,sal:0,atd: ">购物</a>•<a href="http://shouji.hao123.com/?tn=mz " class="widget-links-r tc-green " cls="ds,n " alog-custom="ind:ds,sal:0,atd: ">手机</a></span>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="skin-js/skin.js"> </script>
+</body>
+
+</html>

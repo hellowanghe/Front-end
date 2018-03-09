@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>青岛家教网表格</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <header>
+                <nav> <img src="./qdjjlogo.gif">
+                    <a href="javascript:window.external.addFavorite('http://www.qdjj.net','%E9%9D%92%E5%B2%9B%E5%AE%B6%E6%95%99%E7%BD%91')">收藏本站</a>
+                    <a href="http://www.qdjj.net/login.asp">登录</a>
+                    <a href="http://www.qdjj.net/member/register.asp">注册</a></nav>
+            </header>
+            <table class="baseinfo">
+                <caption>新教员注册第二步</caption>
+                <!-- 基本信息 -->
+                <tbody>
+                    <tr>
+                        <td colspan="2" id="ftd">您的注册资料越详细就越有利于家长和学员检索，也就越容易获得家长的预约，所以请您务必如实详细地填写。 其中红
+                            <br>色星号（<span>*</span>）为必填。我们已对您的个人信息做保密处理，您的信息是安全的。
+                            <br>您选择的是<span>社会职业人士</span>身份,若有误请
+                            <a href="javascript:history.go(-1);">返回</a>更改
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="head">基本资料</td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>真实姓名：</td>
+                        <td class="blue">
+                            <input type="text" class="blue" placeholder="请写真实姓名" required>
+                            <br><span>注意：</span>姓名应与身份证完全一致，本网站将对你的姓名严格保密，只显示您的姓，如“张教员”。此部分将在认证时严格审查，一经填写不得修改，与证件不符者将不能通过认证！</td>
+                    </tr>
+                    <tr>
+                        <td class="right">身份证/护照：</td>
+                        <td class="blue">
+                            <input type="text" name="passport">(此项将严格保密，不对外公开)</td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>性别：</td>
+                        <td class="blue">
+                            <select required>
+                                <option value="">请选择--</option>
+                                <option value="">男</option>
+                                <option value="">女</option>
+                            </select> (此项将严格保密，不对外公开)</td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>出生年份：</td>
+                        <td>
+                            <input type="month">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>专业：</td>
+                        <td class="blue">
+                            <input type="text" name="" required>请如实填写专业全名，以学生证为准。此部分将在认证时严格审查，与证件不符者将不能通过认证！
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>目前（最高）学历：</td>
+                        <td>
+                            <select required>
+                                <option value="">-请选择-</option>
+                                <option value="">大专以下</option>
+                                <option value="">大专</option>
+                                <option value="">本科</option>
+                                <option value="">硕士</option>
+                                <option value="">博士</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>籍贯（生源地）：</td>
+                        <td>
+                            <select required>
+                                <option value="" selected="">—请选择—</option>
+                                <option value="青岛市南">青岛市南</option>
+                                <option value="青岛市北">青岛市北</option>
+                            </select>
+                            (并非指当前所在地)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>籍贯（生源地）：</td>
+                        <td class="blue">
+                            <input type="text" name="passport" required>(此项将严格保密，不对外公开)</td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>毕业/就读高校：</td>
+                        <td>
+                            <input type="text" name="passport" required>
+                        </td>
+                    </tr>
+                </tbody>
+                <!-- 联系方式 -->
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="head">联系方式</td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>手机/小灵通：</td>
+                        <td class="blue">
+                            <input type="text" name="">最好留下多个联系方式，换号时请及时更新联系方式</td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>目前住所：</td>
+                        <td>
+                            <select name="" id="">
+                                -李沧---百通花园"&gt;李沧---百通花园
+                                <option value="李沧---百通馨园">李沧---百通馨园</option>
+                                <option value="崂山---颐中体育场">崂山---颐中体育场</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right">家庭或校外住所：</td>
+                        <td class="blue">
+                            <select>
+                                <option value="" selected="">—请选择—</option>
+                                <option value="非青岛地区">非青岛地区</option>
+                            </select>
+                            请家在青岛市区或住在校外的教员填写
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>E-mail：</td>
+                        <td class="blue">
+                            <input type="email">(为通知合适您的家教及找回密码，请认真填写)</td>
+                    </tr>
+                    <tr>
+                        <td class="right">QQ：</td>
+                        <td>
+                            <input type="number" min="10000">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right">详细地址：</td>
+                        <td class="blue">
+                            <input type="adress"> (以方便我们给您寄送家教相关资料及协议等。)
+                        </td>
+                    </tr>
+                    <!-- 家教信息 -->
+                    <tr>
+                        <td colspan="2" class="head">家教信息</td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>普通话：</td>
+                        <td>
+                            <select required>
+                                <option value="标准">标准</option>
+                                <option value="一般" selected="">一般 </option>
+                                <option value="较差">较差</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="right"><span>*</span>第一外语：</td>
+                        <td>
+                            <select required>
+                                <option value="英语" selected="">英语</option>
+                                <option value="日语">日语</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="一级">一级</option>
+                                <option value="一般" selected="">一般</option>
+                            </select>
+                        </td>
+                        <tr>
+                            <td class="right">第二外语：</td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="无" selected="">无</option>
+                                    <option value="英语">英语</option>
+                                    <option value="日语">日语</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="一级">一级</option>
+                                    <option value="二级">二级</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="right"><span>*</span>自我描述与
+                                <br>特长展示：</td>
+                            <td class="blue">
+                                <textarea name="" id="" cols="60" rows="6" required></textarea>
+                                <br>全面展示你的实力和优势特长，增加你简历的含金量！例如：在比赛中得过什么重要奖项，获得过什么奖学金，取得什么样的高考成绩，有哪些能证明你能力的资格证书之类。 不得少于50字，不得超过500字。家长选择你的重要依据，请认真填写！</td>
+                        </tr>
+                        <!-- 家教经历开始 -->
+                        <tr>
+                            <td class="right">
+                                家教经历
+                                <br>（教学成果）：
+                            </td>
+                            <td class="blue">
+                                <textarea name="" id="" cols="60" rows="6"></textarea>
+                                <br>这些内容是对您教学水平最有力和最直接的反映！是学员选择您的一项重要依据。字数500字以内。最好说明辅导时间、学生年级、辅导效果。专职老师详述自己的教学成果和荣誉奖励。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="right" ><span>*</span>可辅导的科目
+                                <br>（不超过10项）：
+                            </td>
+                            <td valign="top">
+                                <span>教员在选择中考、高考、雅思、新概念等有难度的科目时应量力而行，最好有实际辅导经验。</span>
+                                <strong>----小学----</strong>
+                                <br>
+                                <label><input name="job" type="checkbox" value="小学语文">小学语文</label>
+                                <label><input name="job" type="checkbox" value="小学数学">小学数学</label>
+                                <label><input name="job" type="checkbox" value="小学英语">小学英语</label>
+                                <label><input name="job" type="checkbox" value="小学奥数">小学奥数</label>
+                                <label><input name="job" type="checkbox" value="小学全科">小学全科</label>
+                                <hr/>
+                                <strong>----初中----</strong>
+                                <br>
+                                <label><input name="job" type="checkbox" value="初中语文">初中语文</label>
+                                <label><input name="job" type="checkbox" value="初中英语">初中英语</label>
+                                <label><input name="job" type="checkbox" value="初中数学">初中数学</label>
+                                <label><input name="job" type="checkbox" value="初中物理">初中物理</label>
+                                <label><input name="job" type="checkbox" value="初中化学">初中化学</label>
+                                <label><input name="job" type="checkbox" value="初中地理">初中地理</label>
+                                <label><input name="job" type="checkbox" value="初中生物">初中生物</label>
+                                <label><input name="job" type="checkbox" value="初中数">初中数理化</label>
+                                <label><input name="job" type="checkbox" value="初中全科">初中全科</label>
+                                <label><input name="job" type="checkbox" value="初中奥数">初中奥数</label>
+                                <label><input name="job" type="checkbox" value="中考语文">中考语文</label>
+                                <label><input name="job" type="checkbox" value="中考英语">中考英语</label>
+                                <label><input name="job" type="checkbox" value="中考数学">中考数学</label>
+                                <label><input name="job" type="checkbox" value="中考物理">中考物理</label>
+                                <label><input name="job" type="checkbox" value="中考化学">中考化学</label>
+                                <label><input name="job" type="checkbox" value="中考数">中考数理化</label>
+                                <label><input name="job" type="checkbox" value="中考全科">中考全科</label>
+                                <label><input name="job" type="checkbox" value="中考">中考心理辅导</label>
+                                <hr/>
+                                <strong>----高中----</strong>
+                                <br>
+                                <label><input name="job" type="checkbox" value="语文">高一高二语文</label>
+                                <label><input name="job" type="checkbox" value="英语">高一高二英语</label>
+                                <label><input name="job" type="checkbox" value="数学">高一高二数学</label>
+                                <label><input name="job" type="checkbox" value="物理">高一高二物理</label>
+                                <label><input name="job" type="checkbox" value="化学">高一高二化学</label>
+                                <label><input name="job" type="checkbox" value="地理">高一高二地理</label>
+                                <label><input name="job" type="checkbox" value="生物">高一高二生物</label>
+                                <label><input name="job" type="checkbox" value="高考语文">高考语文</label>
+                                <label><input name="job" type="checkbox" value="高考英语">高考英语</label>
+                                <label><input name="job" type="checkbox" value="高考数学">高考数学</label>
+                                <label><input name="job" type="checkbox" value="高考物理">高考物理</label>
+                                <label><input name="job" type="checkbox" value="高考化学">高考化学</label>
+                                <label><input name="job" type="checkbox" value="高数理">高考数理化</label>
+                                <label><input name="job" type="checkbox" value="高考美术">高考美术</label>
+                                <label><input name="job" type="checkbox" value="高考理综">高考理综</label>
+                                <label><input name="job" type="checkbox" value="高考文综">高考文综</label>
+                                <input name="job" type="checkbox" value="高导">高考心理辅导
+                                <hr/>
+                            </td>
+                        </tr>
+                        <!-- 家教经历结束 -->
+                        <tr>
+                            <td class="right"><span>*</span>最擅长的科目：</td>
+                            <td class="blue">
+                                <input type="text"  required>请填写你最拿手、最有经验的科目，例如：“英语、初中数理化、高三数学”，越具体越好，不超过三项</td>
+                        </tr>
+                        <tr>
+                            <td class="right"><span>*</span>方便授课区域：</td>
+                            <td>
+                                -----<b>市南---</b>
+                                <label><input name="area" type="checkbox" value="市南全区"></label>
+                                <label><span>市南全区</span></label>
+                               <br>
+                                <label><input name="area" type="checkbox" id="area" value="市南-团岛">团岛</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-火车站（栈桥）">火车站（栈桥）</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-中山路">中山路</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-海大鱼山校区（大学路）"></label>海大鱼山校区（大学路）
+                                <label><input name="area" type="checkbox" id="area" value="市南-汇泉广场">汇泉广场</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-八大关">八大关</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-市政府">市政府</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-书城">书城</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-广电大厦（大福源）">广电大厦（大</label>福源）
+                                <label><input name="area" type="checkbox" id="area" value="市南-澳柯玛立交桥（百安居）"></label>澳柯玛立交桥（百安居）
+                                <label><input name="area" type="checkbox" id="area" value="市南-青岛大学（麦岛）">青岛大学（麦岛</label>）
+                                <label><input name="area" type="checkbox" id="area" value="市南-东部市立医院">东部市立医院</label>
+                                <label><input name="area" type="checkbox" id="area" value="市南-湛山">湛山</label>
+                                <br> -----
+                                <b>市北---</b>
+                                <input name="area" type="checkbox" value="市北全区">
+                                <span>市北全区</span>
+                                <br>
+                                <label><input name="area" type="checkbox" id="area" value="市北-小港">小港</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-市立医院（西部）">市立医院（西部）</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-电子信息城">电子信息城</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-台东">台东</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-内蒙古路长途汽车站">内蒙古路长途汽车站</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-错埠岭小区">错埠岭小区</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-浮山后">浮山后</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-山东路家乐福">山东路家乐福</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-敦化路">敦化路</label>
+                                <label><input name="area" type="checkbox" id="area" value="市北-青岛图书馆">青岛图书馆</label>
+                                <br> -----
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="right"><span>*</span>可授课时间：</td>
+                            <td class="blue">
+                                <input type="text" value="授课时间无限制">（请注意及时更新授课时间）</td>
+                        </tr>
+                        <tr>
+                            <td class="right"><span>*</span>辅导方式：</td>
+                            <td>
+                                <label><input type="checkbox">教员上门</label>
+                                <label><input type="checkbox">学员上门</label>
+                                <label><input type="checkbox">网上辅导</label>
+                                <label><input type="checkbox">可协商</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="right"><span>*</span>薪酬要求：</td>
+                            <td class="blue">
+                                <textarea name="" id="" cols="60" rows="5" required>执行青岛家教网薪水标准</textarea>
+                                <br>默认为接受青岛家教网的课时费标准（查看详细的报酬标准
+                                <变成链接>)，如果不同意，也可以在表中列出自己的薪酬要求，如：小学**元/时、小学奥数**元/时、初一**元/时、高三**元/时、钢琴**元/时、陪读**元/月。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="sub">
+                                <input type="submit" value="提交">
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <footer>
+                <span>Copyright © 2003～2008 版权所有 青岛家教网</span>
+            </footer>
+        </form>
+    </div>
+</body>
+
+</html>

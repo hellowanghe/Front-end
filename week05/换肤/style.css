@@ -1,0 +1,332 @@
+/*width:1190px;height:40px;
+首页：width；82px;height:40;
+next:width:110px;height:40;
+leftside: width:280px;margin-right:10px;margin-top:10px;
+rightside:width:900px;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/100% arial, "Hiragino Sans GB", "Hiragino Sans GB W3", \5b8b\4f53;
+}
+
+span {
+    color: #333;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    outline-style: none;
+    color: #333;
+}
+.top {
+    height: 150px;
+    width: 100%;
+    min-width: 1190px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.top .top-con{
+	width: 900px;
+
+}
+.top span{
+	width: 120px;
+	height: 40px;
+	display: block;
+	background: url(img/index_widthlg.png);
+	background-position: -10px -212px;
+	float: left;
+	margin-right: 45px;
+    margin-top: 23px;
+}
+.top form {
+	float: left;
+}
+
+.top form input:first-child{
+	width: 539px;
+	height: 46px;
+	box-sizing: border-box;
+	outline-style: none;
+	padding-left: 20px;
+
+}
+.top form input:last-child{
+	width: 120px;
+	height: 46px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 1px solid;
+	border-left: none;
+	background: url(img/index_widthlg.png);
+	background-position: -211px -181px;
+	cursor: pointer;
+	outline-style: none;
+	position: relative;
+    top: 17px;
+    left: -4px;
+}.top form input:last-child:hover{
+	width: 120px;
+	height: 46px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 1px solid;
+	border-left: none;
+	background: url(img/index_widthlg.png);
+	background-position: -211px -231px;
+	cursor: pointer;
+}
+#change-skin{
+	position: absolute;
+	right: 100px;
+	top:80px;
+}
+#change-skin button{
+	width: 40px;
+cursor: pointer;
+border: 1px solid #333;
+background: #444;
+}
+#change-skin button:nth-child(1){
+	background: red;
+}
+.head {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-content: center;
+    height: 80px;
+    width: 100%;
+    min-width: 1190px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.head .innerhead {
+    border: 1px solid #0AA770;
+    border-top: 3px solid #0AA770;
+    width: 1190px;
+    background-color: #fff;
+}
+
+.article {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-content: center;
+    height: 300px;
+    min-width: 1190px;
+    overflow: hidden;
+}
+
+.foot {
+    height: 150px;
+    background-color: #C2C2F9;
+    border-radius: 20px;
+    border: 2px solid #C1ABAB;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.article .left {
+    border: 1px solid #333;
+    background-color: #fff;
+    width: 280px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.article .mid {
+    border: 1px solid #333;
+    width: 900px;
+    background-color: #fff;
+}
+
+.article div {
+    height: 300px;
+}
+
+.innerhead ul {
+	height: 39px;
+    background-color: #fff;
+}
+
+.innerhead .ful li {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    box-sizing: border-box;
+    width: 111px;
+    border-bottom: 1px solid #555;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: Microsoft Yahei;
+    font-size: 16px;
+}
+
+.ful li:first-child a {
+    color: #fff;
+}
+.ful li a:hover span{
+	color: #0AA770;
+}
+
+.innerhead .ful .split {
+    width: 1px;
+    position: relative;
+    left: 17px;
+    color: #EADEDE;
+}
+
+.innerhead .ful a {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    box-sizing: border-box;
+    width: 101px;
+}
+
+.innerhead .sul .govsite-inner .title {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 36px;
+    color: #0AA770;
+}
+
+.innerhead .sul .govsite-inner .title-line {
+    position: relative;
+    left: 13px;
+    color: #DCBBBB;
+}
+
+.innerhead .sul .govsite-inner div {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-right: 36px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.left {
+    box-sizing: border-box;
+    padding-left: 18px;
+    padding-top: 9px;
+}
+
+.leftul li {
+    width: 128px;
+    height: 20px;
+    margin: 5px 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+.leftul li a {
+    font-size: 14px;
+}
+.leftul li a:hover {
+    color: #f50;
+}
+
+.leftul li .leftul_icon {
+	display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(img/index_menus_widthlg.png);
+}
+.leftul li:nth-child(1) .leftul_icon {
+    
+    background-position: 40px -81px;
+}
+.leftul li:nth-child(2) .leftul_icon {
+   
+    background-position: 40px 197px;
+}.leftul li:nth-child(3) .leftul_icon {
+    
+    background-position: 40px -162px;
+}.leftul li:nth-child(4) .leftul_icon {
+    
+    background-position: 40px -381px;
+}.leftul li:nth-child(5) .leftul_icon {
+    
+    background-position: 40px -101px;
+}.leftul li:nth-child(6) .leftul_icon {
+    
+    background-position: 40px -263px;
+}.leftul li:nth-child(7) .leftul_icon {
+    
+    background-position: 40px -22px;
+}.leftul li:nth-child(8) .leftul_icon {
+    
+    background-position: 40px -121px;
+}.leftul li:nth-child(9) .leftul_icon {
+    
+    background-position: 40px -281px;
+}.leftul li:nth-child(10) .leftul_icon {
+    
+    background-position: 40px -363px;
+}
+.mid ul li{
+	width: 139px;
+	height: 30px;
+	box-sizing: border-box;
+	text-align: center;
+    line-height: 30px;
+    padding-right: 30px;
+
+}
+.mid ul li a img{
+float: left;
+}
+.wf-inner span{
+	width: 140px;
+	height: 30px;
+	box-sizing: border-box;
+	line-height: 30px;
+	text-align: center;
+	text-align: center;
+    display: block;
+    float: left;
+    padding-right: 32px;
+}
+.wf-inner .change-color a{
+	color: #0AA770;
+}
+.wf-inner .change-color2 a{
+	color: #EA2B00;
+}
+.wf-inner .change-color3 a{
+	color: #D236CD;
+}.wf-inner .change-color4 a{
+	color: #EA0D0D;
+}
+.container {}
+
+

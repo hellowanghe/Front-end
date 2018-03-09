@@ -1,0 +1,2 @@
+xampp;
+新建一个数据库，名字baidunews,将sql文件导入即可

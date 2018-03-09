@@ -1,0 +1,17 @@
+body{
+	background:#043824;
+}
+html,div{
+	height: 100%;
+}
+.container{
+	top: 10px;
+}
+.col-md-5{
+	border:2px solid #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 50px;
+    left: 50%;
+    margin-left: -243px;
+    top: 190px;
+}

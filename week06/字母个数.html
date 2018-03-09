@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+var str = ['a', 'x', 'b', 'd', 'm', 'a', 'k', 'm', 'p', 'j', 'a']; //定义数组
+var m = 1; //计数变量
+var temp = [];
+var temp2 = [];
+var temp3 = [];
+var max = 0;
+
+for (var i = 0; i <= str.length - 1; i++) {
+    // str=str.sort();
+    m = 0;
+    for (var j = 0; j <= str.length - 1; j++) {
+        //对比字符
+        if (str[i] == str[j]) {
+            m = m + 1; //统计字母次数
+        } else {
+            continue;
+        }
+    }
+
+    //求出最多次数
+    if (m >= max) {
+        max = m; //出现次数最多
+        temp.push(str[i]); //将最多次数的字母，储存进数组
+    }
+}
+temp = temp.sort(); //排序
+//去掉重复选项
+temp3.push(temp[0]);
+for (var i = 0; i <= temp.length; i++) {
+    if (temp[i + 1] == temp[i]) {} else {
+        temp3.push(temp[i + 1]);
+    }
+}
+//遍历位置信息；
+for (var j = 0; j <= str.length - 1; j++) {
+    if (temp[0] == str[j]) {
+        temp2.push(j + 1); //将位置信息储存进数组
+    } else {
+        continue;
+    }
+}
+document.write("<hr />");
+document.write("出现最多的字母是" + temp[0] + "出现了" + max + "次"); //打印出现最的字母，和出现的次数
+document.write('<br>');
+document.write("出现位置分别是" + temp2); //打印位置
+document.write("<hr />");
+</script>
+
+<body>
+</body>
+
+</html>

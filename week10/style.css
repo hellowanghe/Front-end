@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FFFDCB;
+}
+div.container {
+    width: 80%;
+    margin: 20px auto;
+    font: 12px/1.5 arial,\5b8b\4f53,georgia,verdana,helvetica,sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 20px;
+    border: 4px solid #FFE0B1;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: #F97324;
+}
+h2{
+    color:#FDAE5D;
+}
+p {
+      color: #756868;
+    font-size: 15px;
+}    

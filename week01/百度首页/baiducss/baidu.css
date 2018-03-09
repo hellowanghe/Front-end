@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+}
+.content img{
+	align:center;
+	width: 270px;
+	height: 129px;
+}
+.head{
+	text-align: right;
+
+}
+.content{
+	margin-top: 100px;
+	text-align: center;
+}
+#F{
+	position: relative;
+	right: -10px;
+	bottom: 1px;
+	width: 500px;
+	height: 22px;
+	padding-left: 7px;
+	padding-right: 48px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#S{
+	width: 102px;
+	height: 42px;
+	background-color: #398bfb;
+	border: 0px;
+	font-size: 16px;
+	color: white;
+	line-height: 38px;
+
+
+}
+.head nav span{
+	background-color: #398bfb;
+	padding-bottom: 4px;
+	padding-top: 40px;
+	padding-right: 5px;
+        
+
+}
+footer{
+	color: #999;
+	text-align: center;
+	bottom: 10px;
+	font:12px arial;
+	margin-top:260px;
+}
+footer  a{
+	color: #999;
+}

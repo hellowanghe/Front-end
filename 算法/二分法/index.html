@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>vue.js</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <input type="text" id="num">
+        <button id="ca">求开方</button>
+        <br>
+        <input type="text" name="" id="num2" value="">
+    </div>
+    <script>
+    $('#ca').click(function() {
+        var x = $('#num').val();
+        var a = 0;
+        var b = x;
+        var startTime = new Date().getTime()
+        console.log(startTime);
+        for (var i = 1; i <= 1000; i++) {
+            var tem = Number(a) + (Number(b) - Number(a)) / 2;
+            var tem1 = tem * tem;
+            var tem2 = tem1 - x;
+            //console.log(tem1);
+            //console.log(tem2);
+            if ((tem1 - x) < 0.00001 && tem2 >= 0) {
+                console.log(x + "平方根是" + tem);
+                break
+            } else if (tem1 > x) {
+                b = (Number(a) + Number(b)) / 2;
+                continue
+            } else if (tem1 < x) {
+                a = (Number(a) + Number(b)) / 2;
+                continue
+            }
+        }
+        var endTime = new Date().getTime()
+        var t = endTime - startTime;
+        console.log(endTime);
+        console.log("所用时间为" + t + '毫秒');
+        console.log(tem);
+        $('#num2').val(tem);
+
+    });
+    </script>
+    
+</body>
+
+</html>

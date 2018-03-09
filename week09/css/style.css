@@ -1,0 +1,587 @@
+body,div{
+	width:100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+	font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+}
+body{
+	background-color: #f5f5f5;
+}
+li{
+	list-style: none;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+}
+h2{
+	margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 22px;
+}
+.conten{
+	position:relative;
+}
+a {
+	text-decoration: none;
+	line-height: 12px;
+}
+header{
+	
+		}
+.head_1000{
+	
+
+}
+.logo{
+	
+
+}
+.icon{
+	
+}
+.icon nav{
+	
+}
+.icon nav ul{
+	
+}
+.icon ul li{
+	
+}
+.icon ul li:hover div{
+	
+}
+/*导航下拉菜单*/
+.icon ul li div{
+	
+}
+.icon ul li:nth-child(3) div{
+	
+}
+.icon ul li:nth-child(4) div{
+	
+}
+.icon ul li div h3{
+	
+
+}
+.icon ul li div a{
+	
+}
+.icon ul li div a:hover{
+	
+	 
+
+}
+    
+.icon ul li:last-child{
+	
+}
+.icon-box{
+	
+}
+.icon-box span{
+	
+}
+.searchboxscale input{
+	
+}
+.icon-box .search-icon{
+	
+}
+.icon-box .app-icon{
+	
+}
+.icon-box .app-icon:hover{
+
+}
+.icon-box .login-icon{
+	
+}
+.arrow-icon {
+	
+}
+.icon ul li:hover {
+	
+}
+.icon ul li:hover i{
+	
+
+}
+
+.searchboxscale{
+	
+}
+
+
+.searchboxscale .search-icon{
+	
+}
+.search-icon:hover {
+    
+}
+.tagbox{
+	
+}
+#searchbox .tagbox a {
+    
+}
+.close-icon{
+	
+}
+
+
+/*header End*/
+.next1{
+	
+}
+.slider{
+	}
+.slidercont{
+		
+}
+.slidercont a{
+		
+}
+	.slidercont a .p1 {
+        
+        /*animation: slider 5s linear infinite;*/
+    }
+    
+    .slidercont a .p2 {
+        
+        /*animation: slider 5s linear infinite;*/
+    }
+    
+    .slidercont a .p3 {
+        
+        /*animation: slider 5s linear infinite;*/
+    }
+    
+    .slidercont a .p4 {
+       
+        /*animation: slider 5s linear infinite;*/
+    }
+    
+    .slidercont a .p5 {
+       
+        /*animation: slider 5s linear infinite;*/
+    }
+
+.next1 .login{
+	
+}
+.img2{
+	
+}
+.login{
+	
+}
+.userInfo{
+	
+}
+.userInfo img{
+	
+}
+.userInfo span{
+	
+}
+.userInfo .userStatus{
+	
+}
+.loginOn{
+	
+}
+.login .loginOn,.login .registerNow{
+	
+
+}
+.login .loginOn:hover,.registerNow:hover{
+	
+}
+.jiuyeban{
+	
+}
+.jiuyeBan1,.jiuyeBan2,.jiuyeBan3,.jiuyeBan4{
+
+}
+.jiuyeBan1{
+	
+   
+}
+.jiuyeBan2{
+	
+}
+.jiuyeBan3{
+	
+	
+}
+.jiuyeBan4{
+	
+   
+}
+.jiuyeban a:hover{
+	
+}
+
+
+.next2{
+	
+}
+.next3{
+	
+}
+.next4{
+	
+}
+
+.next5{
+	
+}
+.next6{
+	
+	}
+article div{
+	
+}
+.next2 ul{
+	
+}
+.next2 ul li{
+	
+}
+.next2 ul li .skuContainer {
+	
+}
+.next2 ul li .skuContainer .skuTitle {
+    
+}
+.next2 ul li .skuContainer .skuInfo {
+   
+}
+.next2 ul li .skuContainer .skuPrice{
+    
+}
+.next2 ul li .skuContainer .skuThrought ,.next2 ul li .skuContainer .skuNum{
+	
+}
+.next2 ul li .skuContainer .skuThrought{
+	
+}
+
+.next2 li:last-child{
+	
+
+}
+.next2 img{
+	
+
+}
+/*next2end*/
+/*next3start*/
+.next3 ul{
+	
+}
+.next3 span{
+	
+}
+.web span ,.web img{
+	
+}
+.web span{
+	
+}
+.python span,.go span ,.ios span,.more span {
+	
+}
+.python img,.go img ,.ios img,.more img{
+	
+}
+.python span{
+	
+}
+.go span {
+	
+	}
+.ios span{
+    
+}
+ .more span{
+    
+ }
+ .python,.ios,.web{
+	
+	}
+.ios,.more{
+	
+}
+/*next4start*/
+.next4 ul{
+	width: 100%;
+	height: 310px;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	position: absolute;
+}
+.next4 ul a{
+	display: block;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+.next4 p{
+	font-size: 12px;
+    color: #555;
+    height: 22px;
+    line-height: 22px;
+    box-sizing: border-box;
+    margin:0;
+    font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+}
+.next4 span{
+	display: block;
+    font-size: 12px;
+    color: #35b558;
+    height: 22px;
+    line-height: 22px;
+    box-sizing: border-box;
+}
+.next4 ul li:hover{
+	box-shadow: 0 0 10px #c1c1c1;
+}
+.next4 h2{
+	font-size: 18px;
+    color: #555;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 22px;
+}
+.next4 ul li{
+	transition:box-shadow .5s ;
+	position:relative;
+	width: 158px;
+	height: 150px;
+	box-sizing: border-box;
+	border:1px solid #e9e9e9;
+	background:#fff;
+	float:left;
+	text-align: center;
+	margin-right: 10px;
+}
+.next4 ul li:nth-child(6), .next4 ul li:last-child{
+	margin-right: 0;
+}
+.next4 ul li img{
+	display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin-top: 25px;
+}
+.next4 ul li:nth-child(n+7) {
+    margin-top: 10px;
+}
+.next4 .vipAll {
+    display: inline-block;
+    margin-top: 345px;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid #35b558;
+    border-radius: 2px;
+    width: 120px;
+    font-size: 14px;
+    color: #35b558;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+    transition: background .8s;
+    -moz-transition: background .8s;
+    -webkit-transition: background .8s;
+}
+.vipAll:hover{
+	color: white;
+	background-color:  #35b558;
+}
+/*next5 start*/
+.next5{
+
+}
+.next5 ul{
+	height: 200px;
+	width: 100%;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.next5 ul li{
+	margin:0;
+	padding:0;
+    float: left;
+    width: 320px;
+    height: 200px;
+    position: relative;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+.next5 ul .story-content p {
+ width: 318px;
+ height: 119px;
+ margin:0;
+ padding: 0;
+ border:1px solid ##e9e9e9;
+ box-sizing: border-box;
+ text-align: center;
+ font-size: 12px;
+ color: #555;
+ padding:20px 25px;
+line-height: 20px;
+background-color: #fff;
+
+}
+.next5 ul .story-content p:hover {
+	box-shadow: 0px 0px 10px ;
+}
+.next5 ul .story-content{
+	margin:0;
+}
+.next5 ul .story-content span ,.next5 ul .story-info span{
+	font-size: 12px;
+	color: #555;
+}
+.next5 ul .story-info{
+	margin:0;
+	padding:0;
+	width: 320px;
+	height: 80px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	margin-top: -70px;
+}
+.next5 ul img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.next5 ul .story-info p{
+	font-size: 12px;
+	height:24px;
+	line-height: 24px;
+	color: #555;
+	box-sizing: border-box;
+	display: inline-block;
+
+}
+.next5 ul li.last{
+margin-right:0;
+}
+
+/*next6start*/
+.next6{
+	border-bottom: 1px solid  #f5f5f5;
+	background: #fff;
+	width: 100%;
+}
+.foot1000{
+	width: 1000px;
+	margin:0 auto;
+}
+.next6 .jk-logo{
+	margin:0;
+	padding: 0;
+	width: 160px;
+	display: inline-block;
+	float: left;
+}
+.next6 .jk-logo img{
+	width: 109px;
+	height: 40px;
+	display: inline-block;
+}
+.next6 .jk-logo p{
+	font-size: 12px;
+	color:#999;
+	margin-top: 20px;
+}
+.next6 dl{
+	width: 135px;
+	color: #808080;
+	float: left;
+	box-sizing: border-box;
+}
+.next6 dt{
+	margin-left: 40px;
+}
+.next6 dl dd a{
+	color: #808080;
+	font-size: 12px;
+	line-height: 30px;
+}
+/*next6End*/
+.gotop{
+	width: 34px;
+	height: 103px;
+	position: fixed;
+	margin:0;
+	z-index: 5;
+	bottom:50px;
+	left: 50%;
+	margin-left: 510px;
+
+}
+.gotop .arrow{
+	display: block;
+	width: 34px;
+	height: 34px;
+	box-sizing: border-box;
+	background:url(http://e.jikexueyuan.com/headerandfooter/images/gotop.jpg) 0 0 no-repeat; 
+	background-size: 34px 103px;
+	cursor: pointer;
+}
+.gotop .arrow:hover{
+	background: url(http://e.jikexueyuan.com/headerandfooter/images/gotop2.jpg) 0 0 no-repeat;
+	background-size: 34px 103px;
+}
+/**/
+.gotop .phone{
+	display: block;
+	width: 34px;
+	height: 35px;
+	box-sizing: border-box;
+	background:url(http://e.jikexueyuan.com/headerandfooter/images/phone-1.png)center center no-repeat;
+	background-size: 12px 24px;
+	border-bottom: 1px solid #999;
+	background-color:  #e6e2f3;
+
+}
+.gotop .phone:hover{
+
+background:url(http://e.jikexueyuan.com/headerandfooter/images/phone-2.png)center center no-repeat;
+	background-size: 12px 24px;
+
+}
+/*copyright*/
+footer{
+	width: 100%;
+	background: white;
+}
+.copyright{
+	box-sizing: border-box;
+	width: 1000px;
+	margin:0 auto;
+	text-align: center;
+	 font-size: 12px;
+    color: #999;
+    border-top: 1px solid #999;
+    padding-top: 20px;
+    background: white;
+}

@@ -1,0 +1,42 @@
+body{
+	background-image: url("bg.jpg");
+}
+table{
+	margin:0 auto;
+}
+body{
+background-color: #c0c0c0;
+font-size: 20px;
+
+
+}
+body{
+	background-image: url("bg.jpg");
+}
+table,th,td{
+	border-collapse: collapse;
+	border-color:#ff7f50;
+	border-style: solid;
+	border-width: 3px;
+	}
+table{
+	text-align: center;
+	margin:0 auto;
+	margin-top: 130px;
+	/*background-color: #c0c0c0;*/
+	width: 600px;
+	height: 370px;
+	}
+th,td{
+	
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	}
+caption{
+	font-size: 30px;
+	color:#000080;
+}
+td,th{
+	color:#d2691e;
+}
